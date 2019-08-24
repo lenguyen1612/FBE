@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PartyOnboardingPersonal,Chrome 76.0.3809.100,,,2019-08-22 20:35:24,2019-08-22 20:36:21,57.149s,INCOMPLETE
+,,,,,,,
+Test Cases/Login,Chrome 76.0.3809.100,"user: user31
+Pass: user31",,2019-08-22 20:35:24,2019-08-22 20:35:37,12.807s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:35:24,2019-08-22 20:35:25,0.201s,PASSED
+logger = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 20:35:25,2019-08-22 20:35:25,0.007s,PASSED
+loginPage = new pageObjects.LoginPage(),Chrome 76.0.3809.100,,,2019-08-22 20:35:25,2019-08-22 20:35:25,0.059s,PASSED
+"logger.logInfo(""Login - Step01 - Open browser"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:25,2019-08-22 20:35:25,0.004s,PASSED
+"loginPage.openBrowser(url, active)",Chrome 76.0.3809.100,,,2019-08-22 20:35:25,2019-08-22 20:35:35,10.442s,PASSED
+"logger.logInfo(""Login - Step02 - Input Username"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:35,2019-08-22 20:35:35,0.002s,PASSED
+"loginPage.inputUsername(username, active)",Chrome 76.0.3809.100,,,2019-08-22 20:35:35,2019-08-22 20:35:36,0.266s,PASSED
+"logger.logInfo(""Login - Step03 - Input Password"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:36,2019-08-22 20:35:36,0.001s,PASSED
+"loginPage.inputPassword(password, active)",Chrome 76.0.3809.100,,,2019-08-22 20:35:36,2019-08-22 20:35:36,0.190s,PASSED
+"logger.logInfo(""Login - Step04 - Click Sign In button"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:36,2019-08-22 20:35:36,0.002s,PASSED
+loginPage.clickSingin(active),Chrome 76.0.3809.100,,,2019-08-22 20:35:36,2019-08-22 20:35:37,1.074s,PASSED
+"logger.logInfo(""Login - wait load page"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.001s,PASSED
+loginPage.waitLoadPage(active),Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.097s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/ApprovalDataPreparation,Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:36:20,43.491s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.001s,PASSED
+notificationPage = new pageObjects.NotificationPage(),Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.038s,PASSED
+"step = """"",Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.004s,PASSED
+"step = ""1""",Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.002s,PASSED
+"log.logInfo(""Approval - Step0"" + step + "" Click Notification icon"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:37,0.003s,PASSED
+notificationPage.clickNotificationIcon(),Chrome 76.0.3809.100,,,2019-08-22 20:35:37,2019-08-22 20:35:40,2.250s,PASSED
+"step = ""2""",Chrome 76.0.3809.100,,,2019-08-22 20:35:40,2019-08-22 20:35:40,0.000s,PASSED
+"log.logInfo(""Approval - Step0"" + step + "" Click Referral description"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:40,2019-08-22 20:35:40,0.004s,PASSED
+"notificationPage.clickDescription(""Referral"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:40,2019-08-22 20:35:45,5.878s,PASSED
+"step = ""3""",Chrome 76.0.3809.100,,,2019-08-22 20:35:45,2019-08-22 20:35:45,0.001s,PASSED
+"log.logInfo(""Approval - Step0"" + step + "" Click Approval for Party"")",Chrome 76.0.3809.100,,,2019-08-22 20:35:45,2019-08-22 20:35:45,0.002s,PASSED
+notificationPage.clickApproved(description),Chrome 76.0.3809.100,,,2019-08-22 20:35:45,2019-08-22 20:36:20,35.052s,PASSED
+,,,,,,,
+Test Cases/LogOutFromSystem,Chrome 76.0.3809.100,,,2019-08-22 20:36:21,2019-08-22 20:36:21,0.464s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:36:21,2019-08-22 20:36:21,0.001s,PASSED
+"click(findTestObject(""LogOut/Menu_Logoff""))",Chrome 76.0.3809.100,,,2019-08-22 20:36:21,2019-08-22 20:36:21,0.129s,PASSED
+"click(findTestObject(""LogOut/SignOut""))",Chrome 76.0.3809.100,,,2019-08-22 20:36:21,2019-08-22 20:36:21,0.151s,PASSED

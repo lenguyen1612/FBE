@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To check dublicate</description>
+   <name>Pre-Existence Check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4581264-67c7-4d14-9a1d-ccfeb8b6307d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2658a092-5bd9-4f43-945b-bc12ce5bbb21</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a606a0fa-f472-43c4-8dd9-01f45d37b8a2</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb0157c6-9d8f-4807-afa5-f932bebcd877</id>
+      <masked>false</masked>
+      <name>dateofbirth</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2d5d2885-91ba-4c35-b2c3-b3c27c1791ea</id>
+      <masked>false</masked>
+      <name>email_contactnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>968b1e74-af4b-4414-880f-e5dfa27c3de3</id>
+      <masked>false</masked>
+      <name>national_unique</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>018422e1-7c12-4860-bf5f-0e04b8f8ffd5</id>
+      <masked>false</masked>
+      <name>taxid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>655017db-4e88-42ee-a252-9bc3c6f97beb</id>
+      <masked>false</masked>
+      <name>postcode</name>
+   </variable>
+</TestCaseEntity>

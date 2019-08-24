@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Save Row_btn</name>
+   <tag></tag>
+   <elementGuidId>b82d889e-83fe-4a13-8b39-f58c26f60540</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@id,'saveRowmultipleFundingAccCollection')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>saveRowmultipleFundingAccCollection116c037e430dZOAr%390073</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>iconclass</name>
+      <type>Main</type>
+      <value>dijitMisysIcon miconsave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>require([&quot;bf/controls&quot;], function(controls){controls.saveRow({&quot;gridControlId&quot;:&quot;multipleFundingAccCollection116c037e430dZOAr%390073&quot;,&quot;callService&quot;:{&quot;srcFormId&quot;:&quot;116c037e430dZOAr%390073&quot;,&quot;requestMapping&quot;:{&quot;03fdCurrencyCode&quot;:&quot;[\&quot;Currency116c037e430dZOAr%390073\&quot;]&quot;,&quot;03modeOfPayment&quot;:&quot;[\&quot;ModeOfPayment116c037e430dZOAr%390073\&quot;]&quot;,&quot;15chequeNumber&quot;:&quot;[\&quot;multipleFundingAccCollectionCHEQUENUMBER116c037e430dZOAr%390073\&quot;]&quot;,&quot;06fdAmount&quot;:&quot;[\&quot;multipleFundingAccCollectionfdEquivalentAmount116c037e430dZOAr%390073\&quot;]&quot;,&quot;06exchRate&quot;:&quot;[\&quot;ExchangeRate116c037e430dZOAr%390073\&quot;]&quot;,&quot;10multipleFundingAccts&quot;:&quot;[\&quot;multipleFundingAccCollection116c037e430dZOAr%390073\&quot;]&quot;,&quot;06fdFundingAmount&quot;:&quot;[\&quot;multipleFundingAccCollectionFUNDINGAMOUNT116c037e430dZOAr%390073\&quot;]&quot;,&quot;10multipleFundingAccounts&quot;:&quot;[\&quot;multipleFundingAccCollection116c037e430dZOAr%390073\&quot;]&quot;,&quot;03accountNumber&quot;:&quot;[\&quot;multipleFundingAccCollectionCONTRAACCOUNT116c037e430dZOAr%390073\&quot;]&quot;,&quot;03opration&quot;:&quot;[\&quot;opAdd116c037e430dZOAr%390073\&quot;]&quot;},&quot;responseMapping&quot;:{&quot;TransactionAmount&quot;:&quot;{\&quot;Amount116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;,&quot;ForeignAmount_CurrCode&quot;:&quot;{\&quot;multipleFundingAccCollectionISOCURRENCYCODE116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;,&quot;true&quot;:&quot;{\&quot;disableMultiFundExcRate116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;,&quot;TransactionAmount_CurrCode&quot;:&quot;{\&quot;Amount_CurrCode116c037e430dZOAr%390073\&quot;:\&quot;\&quot;,\&quot;hiddenLabelAmount_CurrCode116c037e430dZOAr%390073\&quot;:\&quot;\&quot;,\&quot;multipleFundingAccCollectionfdEquivalentAmount_CurrCode116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;,&quot;exchRate&quot;:&quot;{\&quot;ExchangeRate116c037e430dZOAr%390073\&quot;:\&quot;\&quot;,\&quot;mulFundExchRate116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;,&quot;ForeignAmount&quot;:&quot;{\&quot;ForeignAmount116c037e430dZOAr%390073\&quot;:\&quot;\&quot;}&quot;},&quot;serviceDisplayName&quot;:&quot;Calculate Multiple Funding Amounts&quot;,&quot;serviceName&quot;:&quot;UB_MMK_CalculateMultipleFundingAmts_SRV&quot;},&quot;addRowEvent&quot;:&quot;Validation&quot;});});</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save Row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;saveRowmultipleFundingAccCollection116c037e430dZOAr%390073&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='saveRowmultipleFundingAccCollection116c037e430dZOAr%390073']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='116c037e430dZOAr%390073']/table/tbody/tr[19]/td[2]/div/div[3]/button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove Row'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Row'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[6]/preceding::button[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fixed Deposit Amount'])[1]/preceding::button[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button[3]</value>
+   </webElementXpaths>
+</WebElementEntity>

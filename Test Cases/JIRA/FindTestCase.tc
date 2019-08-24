@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FindTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>129d1e5a-6f9b-4cbf-b344-a64a7e2153d7</testCaseGuid>
+   <variable>
+      <defaultValue>'FBEUAT-361'</defaultValue>
+      <description></description>
+      <id>aaa89ac1-f2fc-43a4-a0e5-75329333535d</id>
+      <masked>false</masked>
+      <name>testCaseID</name>
+   </variable>
+   <variable>
+      <defaultValue>'1,TODO | 3,TODO'</defaultValue>
+      <description></description>
+      <id>462544cd-255a-4576-8d4b-c4299b9b5080</id>
+      <masked>false</masked>
+      <name>results</name>
+   </variable>
+</TestCaseEntity>

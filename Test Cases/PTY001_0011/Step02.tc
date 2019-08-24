@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29136553-6f0c-4579-bb9b-730d21dd9342</testCaseGuid>
+   <variable>
+      <defaultValue>'Local Global'</defaultValue>
+      <description></description>
+      <id>912778ba-a917-49df-8787-7e0c9fd1819c</id>
+      <masked>false</masked>
+      <name>listLocalGlobal</name>
+   </variable>
+</TestCaseEntity>

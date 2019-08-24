@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>productList_lst</name>
+   <tag></tag>
+   <elementGuidId>dfc7d3da-9c5e-4ae3-909d-ed0686f35c76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@id,'_HiddenVector_SearchProductRs:searchProductsOutput:searchproductSummaryDtls')]/parent::td/following-sibling::td[@idx='1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

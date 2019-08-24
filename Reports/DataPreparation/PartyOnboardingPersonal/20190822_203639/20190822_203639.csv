@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PartyOnboardingPersonal,Chrome 76.0.3809.100,,,2019-08-22 20:36:42,2019-08-22 20:38:01,1m - 18.838s,INCOMPLETE
+,,,,,,,
+Test Cases/Login,Chrome 76.0.3809.100,"user: user31
+Pass: user31",,2019-08-22 20:36:42,2019-08-22 20:36:55,13.080s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:36:42,2019-08-22 20:36:42,0.215s,PASSED
+logger = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 20:36:43,2019-08-22 20:36:43,0.007s,PASSED
+loginPage = new pageObjects.LoginPage(),Chrome 76.0.3809.100,,,2019-08-22 20:36:43,2019-08-22 20:36:43,0.040s,PASSED
+"logger.logInfo(""Login - Step01 - Open browser"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:43,2019-08-22 20:36:43,0.003s,PASSED
+"loginPage.openBrowser(url, active)",Chrome 76.0.3809.100,,,2019-08-22 20:36:43,2019-08-22 20:36:53,10.686s,PASSED
+"logger.logInfo(""Login - Step02 - Input Username"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:53,2019-08-22 20:36:53,0.004s,PASSED
+"loginPage.inputUsername(username, active)",Chrome 76.0.3809.100,,,2019-08-22 20:36:53,2019-08-22 20:36:54,0.257s,PASSED
+"logger.logInfo(""Login - Step03 - Input Password"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:54,2019-08-22 20:36:54,0.002s,PASSED
+"loginPage.inputPassword(password, active)",Chrome 76.0.3809.100,,,2019-08-22 20:36:54,2019-08-22 20:36:54,0.163s,PASSED
+"logger.logInfo(""Login - Step04 - Click Sign In button"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:54,2019-08-22 20:36:54,0.002s,PASSED
+loginPage.clickSingin(active),Chrome 76.0.3809.100,,,2019-08-22 20:36:54,2019-08-22 20:36:55,1.177s,PASSED
+"logger.logInfo(""Login - wait load page"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.001s,PASSED
+loginPage.waitLoadPage(active),Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.109s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/ConfirmDataPreparation,Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:38:00,1m - 4.915s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.002s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.002s,PASSED
+notificationPage = new pageObjects.NotificationPage(),Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.054s,PASSED
+"step = """"",Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.002s,PASSED
+"step = ""1""",Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.001s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Click Notification icon"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:55,0.003s,PASSED
+notificationPage.clickNotificationIcon(),Chrome 76.0.3809.100,,,2019-08-22 20:36:55,2019-08-22 20:36:58,2.287s,PASSED
+"step = ""2""",Chrome 76.0.3809.100,,,2019-08-22 20:36:58,2019-08-22 20:36:58,0.000s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Click Approval description"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:58,2019-08-22 20:36:58,0.001s,PASSED
+"notificationPage.clickDescription(""Approval"")",Chrome 76.0.3809.100,,,2019-08-22 20:36:58,2019-08-22 20:37:03,5.374s,PASSED
+"step = ""3""",Chrome 76.0.3809.100,,,2019-08-22 20:37:03,2019-08-22 20:37:03,0.001s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Confirmed Party Creation"")",Chrome 76.0.3809.100,,,2019-08-22 20:37:03,2019-08-22 20:37:03,0.001s,PASSED
+"notificationPage.clickConfirmed(description, ""Approval"")",Chrome 76.0.3809.100,,,2019-08-22 20:37:03,2019-08-22 20:38:00,56.912s,PASSED
+,,,,,,,
+Test Cases/LogOutFromSystem,Chrome 76.0.3809.100,,,2019-08-22 20:38:00,2019-08-22 20:38:01,0.503s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 20:38:00,2019-08-22 20:38:00,0.002s,PASSED
+"click(findTestObject(""LogOut/Menu_Logoff""))",Chrome 76.0.3809.100,,,2019-08-22 20:38:00,2019-08-22 20:38:00,0.150s,PASSED
+"click(findTestObject(""LogOut/SignOut""))",Chrome 76.0.3809.100,,,2019-08-22 20:38:00,2019-08-22 20:38:01,0.082s,PASSED

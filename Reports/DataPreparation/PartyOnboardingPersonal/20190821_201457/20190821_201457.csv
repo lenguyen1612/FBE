@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PartyOnboardingPersonal,Chrome 76.0.3809.100,,,2019-08-21 20:15:00,2019-08-21 20:15:38,37.940s,INCOMPLETE
+,,,,,,,
+Test Cases/Login,Chrome 76.0.3809.100,"user: user31
+Pass: user31",,2019-08-21 20:15:01,2019-08-21 20:15:13,11.953s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-21 20:15:01,2019-08-21 20:15:01,0.226s,PASSED
+logger = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-21 20:15:01,2019-08-21 20:15:01,0.010s,PASSED
+loginPage = new pageObjects.LoginPage(),Chrome 76.0.3809.100,,,2019-08-21 20:15:01,2019-08-21 20:15:01,0.039s,PASSED
+"logger.logInfo(""Login - Step01 - Open browser"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:01,2019-08-21 20:15:01,0.003s,PASSED
+"loginPage.openBrowser(url, active)",Chrome 76.0.3809.100,,,2019-08-21 20:15:01,2019-08-21 20:15:11,9.394s,PASSED
+"logger.logInfo(""Login - Step02 - Input Username"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:11,0.003s,PASSED
+"loginPage.inputUsername(username, active)",Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:11,0.249s,PASSED
+"logger.logInfo(""Login - Step03 - Input Password"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:11,0.003s,PASSED
+"loginPage.inputPassword(password, active)",Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:11,0.132s,PASSED
+"logger.logInfo(""Login - Step04 - Click Sign In button"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:11,0.001s,PASSED
+loginPage.clickSingin(active),Chrome 76.0.3809.100,,,2019-08-21 20:15:11,2019-08-21 20:15:12,1.251s,PASSED
+"logger.logInfo(""Login - wait load page"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:12,2019-08-21 20:15:12,0.002s,PASSED
+loginPage.waitLoadPage(active),Chrome 76.0.3809.100,,,2019-08-21 20:15:12,2019-08-21 20:15:13,0.101s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/ConfirmDataPreparation,Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:38,25.552s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.002s,PASSED
+log = new com.kms.katalon.core.logging.KeywordLogger(),Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.003s,PASSED
+notificationPage = new pageObjects.NotificationPage(),Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.042s,PASSED
+"step = """"",Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.002s,PASSED
+"step = ""1""",Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.006s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Click Notification icon"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:13,0.004s,PASSED
+notificationPage.clickNotificationIcon(),Chrome 76.0.3809.100,,,2019-08-21 20:15:13,2019-08-21 20:15:15,2.280s,PASSED
+"step = ""2""",Chrome 76.0.3809.100,,,2019-08-21 20:15:15,2019-08-21 20:15:15,0.001s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Click Approval description"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:15,2019-08-21 20:15:15,0.001s,PASSED
+"notificationPage.clickDescription(""Approval"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:15,2019-08-21 20:15:17,1.392s,PASSED
+"step = ""3""",Chrome 76.0.3809.100,,,2019-08-21 20:15:17,2019-08-21 20:15:17,0.001s,PASSED
+"log.logInfo(""Confirmation - Step0"" + step + "" Confirmed Party Creation"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:17,2019-08-21 20:15:17,0.001s,PASSED
+"notificationPage.clickConfirmed(description, ""Approval"")",Chrome 76.0.3809.100,,,2019-08-21 20:15:17,2019-08-21 20:15:38,21.478s,PASSED

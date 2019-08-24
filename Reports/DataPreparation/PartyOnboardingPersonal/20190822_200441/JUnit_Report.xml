@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="PartyOnboardingPersonal" time="35" tests="3" failures="0" errors="0">
+    <testsuite name="PartyOnboardingPersonal" tests="3" failures="0" errors="0" time="35" timestamp="2019-08-22 20:04:44" hostname="HP - CNU406BFVL" id="Test Suites/DataPreparation/PartyOnboardingPersonal">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190822_200441"/>
+            <property name="logFiles" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190822_200441\\execution0.log"/>
+            <property name="attachments" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190822_200441\\1566480919750.png"/>
+            <property name="hostName" value="HP - CNU406BFVL"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.9.13.62"/>
+            <property name="sessionId" value="139e43533f7359618a4610d1966724ad"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+            <system-out>2019-08-22 20:04:44 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login&#xD;
+&#xD;
+2019-08-22 20:04:44 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-22 20:04:45 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-22 20:04:45 - [TEST_STEP][PASSED] - logger = new com.kms.katalon.core.util.KeywordUtil(): null&#xD;
+&#xD;
+2019-08-22 20:04:45 - [TEST_STEP][PASSED] - loginPage = new pageObjects.LoginPage(): null&#xD;
+&#xD;
+2019-08-22 20:04:45 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step01 - Open browser"): Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-22 20:04:45 - [MESSAGE][INFO] - Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-22 20:04:45 - [TEST_STEP][PASSED] - loginPage.openBrowser(url, active): Current window maximized&#xD;
+&#xD;
+2019-08-22 20:04:45 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-22 20:04:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-22 20:04:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.192.30:9080/uxp/rt/html/layout.html?locale=en-gb'&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step02 - Input Username"): Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][INFO] - Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - loginPage.inputUsername(username, active): Keys 'br1user017' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Username_user' is present&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Keys 'br1user017' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step03 - Input Password"): Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][INFO] - Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - loginPage.inputPassword(password, active): Keys 'User017$#@' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_pwd' is present&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Keys 'User017$#@' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step04 - Click Sign In button"): Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][INFO] - Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-22 20:04:56 - [TEST_STEP][PASSED] - loginPage.clickSingin(active): Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-22 20:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_login' is present&#xD;
+&#xD;
+2019-08-22 20:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-22 20:04:57 - [TEST_STEP][PASSED] - logger.logInfo("Login - wait load page"): Login - wait load page&#xD;
+&#xD;
+2019-08-22 20:04:57 - [MESSAGE][INFO] - Login - wait load page&#xD;
+&#xD;
+2019-08-22 20:04:57 - [TEST_STEP][PASSED] - loginPage.waitLoadPage(active): Wait for page load successfully&#xD;
+&#xD;
+2019-08-22 20:04:57 - [MESSAGE][PASSED] - Wait for page load successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataPreparation/ApprovalDataPreparation" classname="Test Cases/DataPreparation/ApprovalDataPreparation" status="PASSED">
+            <system-out>2019-08-22 20:04:57 - [TEST_CASE][PASSED] - Test Cases/DataPreparation/ApprovalDataPreparation: Test Cases/DataPreparation/ApprovalDataPreparation&#xD;
+&#xD;
+2019-08-22 20:04:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-22 20:04:57 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - notificationPage = new pageObjects.NotificationPage(): null&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - step = "": null&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - step = "1": null&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Notification icon"): Approval - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-22 20:04:58 - [MESSAGE][INFO] - Approval - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-22 20:04:58 - [TEST_STEP][PASSED] - notificationPage.clickNotificationIcon(): Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:00 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is visible&#xD;
+&#xD;
+2019-08-22 20:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:00 - [TEST_STEP][PASSED] - step = "2": null&#xD;
+&#xD;
+2019-08-22 20:05:00 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Referral description"): Approval - Step02 Click Referral description&#xD;
+&#xD;
+2019-08-22 20:05:00 - [MESSAGE][INFO] - Approval - Step02 Click Referral description&#xD;
+&#xD;
+2019-08-22 20:05:00 - [TEST_STEP][PASSED] - notificationPage.clickDescription("Referral"): Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-22 20:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/NotificationPage/NotificationTypes_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:04 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:04 - [MESSAGE][PASSED] - Object 'Object Repository/NotificationPage/NotificationTypes_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-22 20:05:06 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/PartyOnboarding/btn_Next' is visible&#xD;
+&#xD;
+2019-08-22 20:05:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-22 20:05:06 - [TEST_STEP][PASSED] - step = "3": null&#xD;
+&#xD;
+2019-08-22 20:05:06 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Approval for Party"): Approval - Step03 Click Approval for Party&#xD;
+&#xD;
+2019-08-22 20:05:06 - [MESSAGE][INFO] - Approval - Step03 Click Approval for Party&#xD;
+&#xD;
+2019-08-22 20:05:06 - [TEST_STEP][FAILED] - notificationPage.clickApproved(description): Unable to wait for object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' to be clickable&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:484)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$9.call(Unknown Source)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:114)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at ApprovalDataPreparation.run(ApprovalDataPreparation:32)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566480881502.run(TempTestSuite1566480881502.groovy:35)&#xD;
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 139e43533f7359618a4610d1966724ad&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:156)&#xD;
+	at org.openqa.selenium.WebElement$isEnabled.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$1.apply(WaitForElementClickableKeyword.groovy:85)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$1.apply(WaitForElementClickableKeyword.groovy)&#xD;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:82)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.call(WaitForElementClickableKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:484)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$9.call(Unknown Source)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:114)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at Script1563162352603.run(Script1563162352603.groovy:32)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-22 20:05:08 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-22 20:05:09 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:09 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-22 20:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-22 20:05:11 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-22 20:05:13 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-22 20:05:15 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-22 20:05:18 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-22 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-22 20:05:20 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' to be clickable&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:484)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$9.call(Unknown Source)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:114)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at ApprovalDataPreparation.run(ApprovalDataPreparation:32)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566480881502.run(TempTestSuite1566480881502.groovy:35)&#xD;
+Caused by: org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=76.0.3809.100)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55662}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 139e43533f7359618a4610d1966724ad&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:156)&#xD;
+	at org.openqa.selenium.WebElement$isEnabled.call(Unknown Source)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$1.apply(WaitForElementClickableKeyword.groovy:85)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$1.apply(WaitForElementClickableKeyword.groovy)&#xD;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.doCall(WaitForElementClickableKeyword.groovy:82)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword$_waitForElementClickable_closure1.call(WaitForElementClickableKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:484)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$9.call(Unknown Source)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:114)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at pageObjects.NotificationPage.clickApproved(NotificationPage.groovy:131)&#xD;
+	at Script1563162352603.run(Script1563162352603.groovy:32)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190822_200441\\1566480919750.png]]</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/LogOutFromSystem" classname="Test Cases/LogOutFromSystem" status="PASSED">
+            <system-out>2019-08-22 20:05:20 - [TEST_CASE][PASSED] - Test Cases/LogOutFromSystem: Test Cases/LogOutFromSystem&#xD;
+&#xD;
+2019-08-22 20:05:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-22 20:05:20 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-22 20:05:20 - [TEST_STEP][PASSED] - click(findTestObject("LogOut/Menu_Logoff")): Object: 'Object Repository/LogOut/Menu_Logoff' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogOut/Menu_Logoff' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:20 - [TEST_STEP][PASSED] - click(findTestObject("LogOut/SignOut")): Object: 'Object Repository/LogOut/SignOut' is clicked on&#xD;
+&#xD;
+2019-08-22 20:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/LogOut/SignOut' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-22 20:04:44 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-out>
+        <system-err>2019-08-22 20:04:44 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-err>
+    </testsuite>
+</testsuites>

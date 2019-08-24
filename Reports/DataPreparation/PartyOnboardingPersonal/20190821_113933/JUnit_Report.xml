@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="PartyOnboardingPersonal" time="21" tests="2" failures="0" errors="0">
+    <testsuite name="PartyOnboardingPersonal" tests="2" failures="0" errors="0" time="21" timestamp="2019-08-21 11:39:37" hostname="HP - CNU406BFVL" id="Test Suites/DataPreparation/PartyOnboardingPersonal">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190821_113933"/>
+            <property name="logFiles" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190821_113933\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="HP - CNU406BFVL"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.9.13.62"/>
+            <property name="sessionId" value="fe4dff80ba3341cb52f86970c0cb9212"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+            <system-out>2019-08-21 11:39:37 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login&#xD;
+&#xD;
+2019-08-21 11:39:37 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-21 11:39:37 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-21 11:39:38 - [TEST_STEP][PASSED] - logger = new com.kms.katalon.core.util.KeywordUtil(): null&#xD;
+&#xD;
+2019-08-21 11:39:38 - [TEST_STEP][PASSED] - loginPage = new pageObjects.LoginPage(): null&#xD;
+&#xD;
+2019-08-21 11:39:38 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step01 - Open browser"): Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-21 11:39:38 - [MESSAGE][INFO] - Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-21 11:39:38 - [TEST_STEP][PASSED] - loginPage.openBrowser(url, active): Current window maximized&#xD;
+&#xD;
+2019-08-21 11:39:38 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-21 11:39:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-21 11:39:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.192.30:9080/uxp/rt/html/layout.html?locale=en-gb'&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step02 - Input Username"): Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][INFO] - Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - loginPage.inputUsername(username, active): Keys 'br1user006' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Username_user' is present&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Keys 'br1user006' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step03 - Input Password"): Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][INFO] - Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - loginPage.inputPassword(password, active): Keys 'User006!@#' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_pwd' is present&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Keys 'User006!@#' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step04 - Click Sign In button"): Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][INFO] - Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-21 11:39:47 - [TEST_STEP][PASSED] - loginPage.clickSingin(active): Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:47 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_login' is present&#xD;
+&#xD;
+2019-08-21 11:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:48 - [TEST_STEP][PASSED] - logger.logInfo("Login - wait load page"): Login - wait load page&#xD;
+&#xD;
+2019-08-21 11:39:48 - [MESSAGE][INFO] - Login - wait load page&#xD;
+&#xD;
+2019-08-21 11:39:48 - [TEST_STEP][PASSED] - loginPage.waitLoadPage(active): Wait for page load successfully&#xD;
+&#xD;
+2019-08-21 11:39:48 - [MESSAGE][PASSED] - Wait for page load successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataPreparation/ConfirmDataPreparation" classname="Test Cases/DataPreparation/ConfirmDataPreparation" status="PASSED">
+            <system-out>2019-08-21 11:39:48 - [TEST_CASE][PASSED] - Test Cases/DataPreparation/ConfirmDataPreparation: Test Cases/DataPreparation/ConfirmDataPreparation&#xD;
+&#xD;
+2019-08-21 11:39:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-21 11:39:48 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.logging.KeywordLogger(): null&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - notificationPage = new pageObjects.NotificationPage(): null&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - step = "": null&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - step = "1": null&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - log.logInfo("Confirmation - Step0" + step + " Click Notification icon"): Confirmation - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-21 11:39:49 - [MESSAGE][INFO] - Confirmation - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-21 11:39:49 - [TEST_STEP][PASSED] - notificationPage.clickNotificationIcon(): Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-08-21 11:39:51 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is visible&#xD;
+&#xD;
+2019-08-21 11:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:51 - [TEST_STEP][PASSED] - step = "2": null&#xD;
+&#xD;
+2019-08-21 11:39:51 - [TEST_STEP][PASSED] - log.logInfo("Confirmation - Step0" + step + " Click Approval description"): Confirmation - Step02 Click Approval description&#xD;
+&#xD;
+2019-08-21 11:39:51 - [MESSAGE][INFO] - Confirmation - Step02 Click Approval description&#xD;
+&#xD;
+2019-08-21 11:39:51 - [TEST_STEP][PASSED] - notificationPage.clickDescription("Approval"): Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-21 11:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/NotificationPage/NotificationTypes_rdo' is visible&#xD;
+&#xD;
+2019-08-21 11:39:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-21 11:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/PartyOnboarding/btn_Next' is visible&#xD;
+&#xD;
+2019-08-21 11:39:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-21 11:39:53 - [TEST_STEP][PASSED] - step = "3": null&#xD;
+&#xD;
+2019-08-21 11:39:53 - [TEST_STEP][PASSED] - log.logInfo("Confirmation - Step0" + step + " Confirmed Party Creation"): Confirmation - Step03 Confirmed Party Creation&#xD;
+&#xD;
+2019-08-21 11:39:53 - [MESSAGE][INFO] - Confirmation - Step03 Confirmed Party Creation&#xD;
+&#xD;
+2019-08-21 11:39:53 - [TEST_STEP][PASSED] - notificationPage.clickConfirmed(description, "Approval"): Object: 'Object Repository/btn_ClosePage' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object 'Object Repository/PartyOnboarding/btn_Next' is visible&#xD;
+&#xD;
+2019-08-21 11:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PartyOnboarding/btn_Next' is clicked on&#xD;
+&#xD;
+2019-08-21 11:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/chk_TickToDenoteCompliance' is present&#xD;
+&#xD;
+2019-08-21 11:39:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-21 11:39:55 - [MESSAGE][PASSED] - Object 'Object Repository/PartyOnboarding/btn_Next' is visible&#xD;
+&#xD;
+2019-08-21 11:39:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-21 11:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/PartyID/lbl_PartyType' is visible&#xD;
+&#xD;
+2019-08-21 11:39:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ProcessApprovalConfirmation/PartyID/lbl_PartyType' is: 'Personal'&#xD;
+&#xD;
+2019-08-21 11:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/PartyID/lbl_PartyID' is visible&#xD;
+&#xD;
+2019-08-21 11:39:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/ProcessApprovalConfirmation/PartyID/lbl_PartyID' is: '479NVWVA'&#xD;
+&#xD;
+2019-08-21 11:39:58 - [MESSAGE][PASSED] - Wait for page load successfully&#xD;
+&#xD;
+2019-08-21 11:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/btn_ClosePage' is visible&#xD;
+&#xD;
+2019-08-21 11:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_ClosePage' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-08-21 11:39:37 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-out>
+        <system-err>2019-08-21 11:39:37 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-err>
+    </testsuite>
+</testsuites>

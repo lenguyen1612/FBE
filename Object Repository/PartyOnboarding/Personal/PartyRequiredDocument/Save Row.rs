@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Save Row</name>
+   <tag></tag>
+   <elementGuidId>c826a99b-d9a7-4315-8bfe-2ddb9d6efd31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@id,'saveRow')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>saveRow_HiddenVector_ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls116a34bb033224cR%8822</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>iconclass</name>
+      <type>Main</type>
+      <value>dijitMisysIcon miconsave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>require([&quot;bf/controls&quot;], function(controls){controls.saveRow({&quot;gridControlId&quot;:&quot;_HiddenVector_ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls116a34bb033224cR%8822&quot;,&quot;callService&quot;:{&quot;srcFormId&quot;:&quot;116a34bb033224cR%8822&quot;,&quot;requestMapping&quot;:{&quot;09IsEmpty&quot;:&quot;[\&quot;IsEmpty116a34bb033224cR%8822\&quot;]&quot;,&quot;04FromDate&quot;:&quot;[\&quot;ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls:DocumentData:documentDtl:validFromDt116a34bb033224cR%8822\&quot;]&quot;,&quot;03DocumentType&quot;:&quot;[\&quot;ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls:DocumentData:documentDtl:documentType116a34bb033224cR%8822\&quot;]&quot;,&quot;19SearchPartyDocumentData:DocumentDataDtls&quot;:&quot;[\&quot;_HiddenVector_ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls116a34bb033224cR%8822\&quot;]&quot;,&quot;09IsNotEmpty&quot;:&quot;[\&quot;IsNotEmpty116a34bb033224cR%8822\&quot;]&quot;,&quot;04KYCExpiryDate&quot;:&quot;[\&quot;ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls:DocumentData:KYCExpiryDate116a34bb033224cR%8822\&quot;]&quot;,&quot;03DocumentCategory&quot;:&quot;[\&quot;ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls:DocumentData:documentDtl:documentCategory116a34bb033224cR%8822\&quot;]&quot;,&quot;04ToDate&quot;:&quot;[\&quot;ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls:DocumentData:documentDtl:validToDt116a34bb033224cR%8822\&quot;]&quot;},&quot;serviceDisplayName&quot;:&quot;PT_PFN_WrapperForValidatingDocumentData_PRC&quot;,&quot;serviceName&quot;:&quot;PT_PFN_WrapperForValidatingDocumentData_PRC&quot;}});});</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save Row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;saveRow_HiddenVector_ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls116a34bb033224cR%8822&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='saveRow_HiddenVector_ListDocuments:SearchPartyDocumentDataOutput:DocumentDataDtls116a34bb033224cR%8822']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='116a34bb033224cR%8822']/table/tbody/tr[5]/td[2]/div/div[3]/button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove Row'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Row'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number Required'])[1]/preceding::button[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Category'])[2]/preceding::button[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+   </webElementXpaths>
+</WebElementEntity>

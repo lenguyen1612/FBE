@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step03</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31cb794c-2a8c-4c51-9fab-db9d3b45433c</testCaseGuid>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>1598ad32-605f-4a69-8a83-86f97ac6843f</id>
+      <masked>false</masked>
+      <name>branchList</name>
+   </variable>
+</TestCaseEntity>

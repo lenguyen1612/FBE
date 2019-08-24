@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ApprovalDataPreparation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c3d89a6-f6d1-47a7-a118-b491feee3815</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>daf7ff57-af32-47ce-a063-57383e859191</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

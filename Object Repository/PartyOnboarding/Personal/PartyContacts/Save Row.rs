@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Save Row</name>
+   <tag></tag>
+   <elementGuidId>97700573-5906-4398-8689-3adde87c3d15</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Button_13')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>uitype</name>
+      <type>Main</type>
+      <value>Button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Button_13116a34bb033224cR%8822</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Save Row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dojo-props</name>
+      <type>Main</type>
+      <value>readOnly:false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save Row</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>require([&quot;uxp/events&quot;], function(events){events.eventsToInvoke({&quot;saveRow&quot;:[&quot;{\&quot;gridControlId\&quot;:\&quot;_HiddenVector_addPartyContactDtlsRq:addPartyContactDtlsInput:contactDtls:contactDtl116a34bb033224cR%8822\&quot;,\&quot;IMPLICIT_SAVE\&quot;:true,\&quot;callService\&quot;:{\&quot;srcFormId\&quot;:\&quot;116a34bb033224cR%8822\&quot;,\&quot;requestMapping\&quot;:{\&quot;03partyCountryDetails:isdCode\&quot;:\&quot;[\\\&quot;addPartyContactDtlsRq:addPartyContactDtlsInput:contactDtls:contactDtl:countryCode116a34bb033224cR%8822\\\&quot;]\&quot;,\&quot;03contactMethod\&quot;:\&quot;[\\\&quot;addPartyContactDtlsRq:addPartyContactDtlsInput:contactDtls:contactDtl:contactMethod116a34bb033224cR%8822\\\&quot;]\&quot;},\&quot;responseMapping\&quot;:{\&quot;isBoolean\&quot;:\&quot;{\\\&quot;SaveRowCheck116a34bb033224cR%8822\\\&quot;:\\\&quot;\\\&quot;}\&quot;},\&quot;serviceDisplayName\&quot;:\&quot;PT_PAM_ISDCodeValidatorSaveRow_SRV\&quot;,\&quot;serviceName\&quot;:\&quot;PT_PAM_ISDCodeValidatorSaveRow_SRV\&quot;},\&quot;controlId\&quot;:\&quot;Button_13116a34bb033224cR%8822\&quot;}&quot;]});});</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Button_13116a34bb033224cR%8822&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Button_13116a34bb033224cR%8822']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='116a34bb033224cR%8822']/table/tbody/tr[10]/td[4]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✓'])[1]/following::input[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre Order'])[1]/following::input[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact Method'])[2]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use For Contact?'])[1]/preceding::input[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Step05</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>94ec3418-e8c0-47f9-84a4-1050ef819c6b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ce57c066-897a-4cb7-a382-00b70638e58e</id>
+      <masked>false</masked>
+      <name>localglobal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cebef37b-9d64-4cc4-a56e-3581b419fd32</id>
+      <masked>false</masked>
+      <name>partytype</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bee18067-0653-4ab1-b3f2-3b72ec6ce43f</id>
+      <masked>false</masked>
+      <name>partysubtype</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>666c9327-643c-491d-9663-66649b3ff12f</id>
+      <masked>false</masked>
+      <name>partycategory</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7d3c494-0725-4a76-9bad-ea15bff30d7c</id>
+      <masked>false</masked>
+      <name>lineofbusiness</name>
+   </variable>
+</TestCaseEntity>

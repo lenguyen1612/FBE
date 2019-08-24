@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify displayed data on Party Onboarding screen</description>
+   <name>Step01</name>
+   <tag>Party Onboarding</tag>
+   <comment></comment>
+   <testCaseGuid>2b9cb3b3-29e4-4440-831d-d39dc1d21cb5</testCaseGuid>
+   <variable>
+      <defaultValue>'Local Private'</defaultValue>
+      <description></description>
+      <id>a410d46a-0e84-4d08-b97c-7656eba5514c</id>
+      <masked>false</masked>
+      <name>verifyLocalGlobal</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f656408c-f3e1-4b39-91ed-2463edcad486</id>
+      <masked>false</masked>
+      <name>verifyEntity</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a905ed4-2d79-41a7-a7f7-54180de3037c</id>
+      <masked>false</masked>
+      <name>verifyBranch</name>
+   </variable>
+</TestCaseEntity>

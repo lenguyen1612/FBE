@@ -1,0 +1,770 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PartyOnboardingPersonal,Chrome 76.0.3809.100,,,2019-08-22 09:15:38,2019-08-22 09:55:29,39m - 50.886s,INCOMPLETE
+,,,,,,,
+Test Cases/Login,Chrome 76.0.3809.100,"user: user31
+Pass: user31",,2019-08-22 09:15:38,2019-08-22 09:15:50,11.314s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:15:38,2019-08-22 09:15:39,0.209s,PASSED
+logger = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:15:39,2019-08-22 09:15:39,0.010s,PASSED
+loginPage = new pageObjects.LoginPage(),Chrome 76.0.3809.100,,,2019-08-22 09:15:39,2019-08-22 09:15:39,0.046s,PASSED
+"logger.logInfo(""Login - Step01 - Open browser"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:39,2019-08-22 09:15:39,0.002s,PASSED
+"loginPage.openBrowser(url, active)",Chrome 76.0.3809.100,,,2019-08-22 09:15:39,2019-08-22 09:15:48,8.899s,PASSED
+"logger.logInfo(""Login - Step02 - Input Username"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:48,0.001s,PASSED
+"loginPage.inputUsername(username, active)",Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:48,0.292s,PASSED
+"logger.logInfo(""Login - Step03 - Input Password"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:48,0.003s,PASSED
+"loginPage.inputPassword(password, active)",Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:48,0.139s,PASSED
+"logger.logInfo(""Login - Step04 - Click Sign In button"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:48,0.002s,PASSED
+loginPage.clickSingin(active),Chrome 76.0.3809.100,,,2019-08-22 09:15:48,2019-08-22 09:15:50,1.204s,PASSED
+"logger.logInfo(""Login - wait load page"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:50,0.002s,PASSED
+loginPage.waitLoadPage(active),Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:50,0.093s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:18:21,2m - 31.335s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:50,0.003s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:50,0.003s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:50,0.061s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:15:50,2019-08-22 09:15:53,3.097s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:53,2019-08-22 09:15:53,0.015s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:15:53,2019-08-22 09:15:54,0.502s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:54,2019-08-22 09:15:54,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:54,2019-08-22 09:15:54,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:15:54,2019-08-22 09:15:56,1.832s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:56,2019-08-22 09:15:56,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:15:56,2019-08-22 09:15:56,0.461s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:56,2019-08-22 09:15:56,0.002s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:15:56,2019-08-22 09:15:58,2.176s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:58,2019-08-22 09:15:58,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:15:58,2019-08-22 09:15:59,0.273s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:15:59,2019-08-22 09:15:59,0.001s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:15:59,2019-08-22 09:16:00,1.179s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:16:00,2019-08-22 09:16:00,0.006s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:00,2019-08-22 09:16:00,0.253s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:16:00,2019-08-22 09:16:01,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:01,2019-08-22 09:16:01,0.171s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:16:01,2019-08-22 09:16:01,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:16:01,2019-08-22 09:16:02,0.839s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:16:02,2019-08-22 09:16:02,0.215s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:02,2019-08-22 09:16:02,0.123s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:16:02,2019-08-22 09:16:02,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:16:02,2019-08-22 09:16:36,33.202s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:16:36,2019-08-22 09:16:36,0.286s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:36,2019-08-22 09:16:36,0.273s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:16:36,2019-08-22 09:16:37,0.772s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:16:37,2019-08-22 09:16:37,0.001s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:16:37,2019-08-22 09:16:42,5.488s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:42,2019-08-22 09:16:43,0.159s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:16:43,2019-08-22 09:16:58,15.296s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:16:58,2019-08-22 09:16:58,0.147s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:16:58,2019-08-22 09:18:18,1m - 19.789s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:18,2019-08-22 09:18:18,0.195s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:18:18,2019-08-22 09:18:19,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:19,2019-08-22 09:18:19,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:19,2019-08-22 09:18:19,0.144s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:19,2019-08-22 09:18:19,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:18:19,2019-08-22 09:18:20,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:20,2019-08-22 09:18:20,0.128s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:20,2019-08-22 09:18:20,0.001s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:20,2019-08-22 09:18:21,0.692s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:18:21,2019-08-22 09:20:48,2m - 26.795s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:18:21,2019-08-22 09:18:21,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:18:21,2019-08-22 09:18:21,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:18:21,2019-08-22 09:18:21,0.001s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:18:21,2019-08-22 09:18:24,3.004s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:24,2019-08-22 09:18:24,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:18:24,2019-08-22 09:18:24,0.308s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:24,2019-08-22 09:18:24,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:24,2019-08-22 09:18:24,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:18:24,2019-08-22 09:18:26,1.589s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:26,2019-08-22 09:18:26,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:18:26,2019-08-22 09:18:26,0.305s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:26,2019-08-22 09:18:26,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:18:26,2019-08-22 09:18:28,2.069s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:28,2019-08-22 09:18:28,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:18:28,2019-08-22 09:18:29,0.193s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:29,2019-08-22 09:18:29,0.001s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:18:29,2019-08-22 09:18:29,0.739s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:29,2019-08-22 09:18:29,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:29,2019-08-22 09:18:29,0.124s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:18:29,2019-08-22 09:18:30,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:30,2019-08-22 09:18:31,0.161s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:31,2019-08-22 09:18:31,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:18:31,2019-08-22 09:18:31,0.741s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:18:31,2019-08-22 09:18:31,0.166s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:18:31,2019-08-22 09:18:32,0.113s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:18:32,2019-08-22 09:18:32,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:18:32,2019-08-22 09:19:05,32.925s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:19:05,2019-08-22 09:19:05,0.265s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:19:05,2019-08-22 09:19:05,0.227s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:19:05,2019-08-22 09:19:06,0.673s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:19:06,2019-08-22 09:19:06,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:19:06,2019-08-22 09:19:11,5.188s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:19:11,2019-08-22 09:19:11,0.160s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:19:11,2019-08-22 09:19:26,14.982s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:19:26,2019-08-22 09:19:26,0.149s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:19:26,2019-08-22 09:20:45,1m - 18.456s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:45,2019-08-22 09:20:45,0.163s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:20:45,2019-08-22 09:20:46,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:46,2019-08-22 09:20:46,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:46,2019-08-22 09:20:46,0.141s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:46,2019-08-22 09:20:46,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:20:46,2019-08-22 09:20:47,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:47,2019-08-22 09:20:47,0.140s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:47,2019-08-22 09:20:47,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:47,2019-08-22 09:20:48,0.679s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:20:48,2019-08-22 09:23:15,2m - 27.131s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:20:48,2019-08-22 09:20:48,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:20:48,2019-08-22 09:20:48,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:20:48,2019-08-22 09:20:48,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:20:48,2019-08-22 09:20:51,3.002s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:51,2019-08-22 09:20:51,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:20:51,2019-08-22 09:20:51,0.406s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:51,2019-08-22 09:20:51,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:51,2019-08-22 09:20:51,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:20:51,2019-08-22 09:20:53,1.632s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:53,2019-08-22 09:20:53,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:20:53,2019-08-22 09:20:53,0.295s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:53,2019-08-22 09:20:53,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:20:53,2019-08-22 09:20:55,2.089s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:55,2019-08-22 09:20:55,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:20:55,2019-08-22 09:20:55,0.163s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:55,2019-08-22 09:20:55,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:20:55,2019-08-22 09:20:56,0.746s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:56,2019-08-22 09:20:56,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:56,2019-08-22 09:20:56,0.137s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:20:56,2019-08-22 09:20:57,1.004s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:57,2019-08-22 09:20:57,0.138s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:57,2019-08-22 09:20:57,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:20:57,2019-08-22 09:20:58,0.771s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:20:58,2019-08-22 09:20:58,0.153s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:20:58,2019-08-22 09:20:59,0.108s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:20:59,2019-08-22 09:20:59,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:20:59,2019-08-22 09:21:31,32.806s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:21:31,2019-08-22 09:21:32,0.275s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:21:32,2019-08-22 09:21:32,0.218s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:21:32,2019-08-22 09:21:33,0.726s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:21:33,2019-08-22 09:21:33,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:21:33,2019-08-22 09:21:38,5.139s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:21:38,2019-08-22 09:21:38,0.151s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:21:38,2019-08-22 09:21:53,14.855s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:21:53,2019-08-22 09:21:53,0.156s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:21:53,2019-08-22 09:23:12,1m - 18.937s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:12,2019-08-22 09:23:12,0.138s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:23:12,2019-08-22 09:23:13,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:13,2019-08-22 09:23:13,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:13,2019-08-22 09:23:13,0.166s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:13,2019-08-22 09:23:13,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:23:13,2019-08-22 09:23:14,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:14,2019-08-22 09:23:14,0.140s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:14,2019-08-22 09:23:14,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:14,2019-08-22 09:23:15,0.671s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:23:15,2019-08-22 09:25:41,2m - 26.580s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:23:15,2019-08-22 09:23:15,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:23:15,2019-08-22 09:23:15,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:23:15,2019-08-22 09:23:15,0.001s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:23:15,2019-08-22 09:23:18,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:18,2019-08-22 09:23:18,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:23:18,2019-08-22 09:23:18,0.334s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:18,2019-08-22 09:23:18,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:18,2019-08-22 09:23:18,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:23:18,2019-08-22 09:23:20,1.586s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:20,2019-08-22 09:23:20,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:23:20,2019-08-22 09:23:20,0.295s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:20,2019-08-22 09:23:20,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:23:20,2019-08-22 09:23:22,2.160s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:22,2019-08-22 09:23:22,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:23:22,2019-08-22 09:23:23,0.178s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:23,2019-08-22 09:23:23,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:23:23,2019-08-22 09:23:23,0.700s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:23,2019-08-22 09:23:23,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:23,2019-08-22 09:23:23,0.137s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:23:23,2019-08-22 09:23:24,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:24,2019-08-22 09:23:25,0.134s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:25,2019-08-22 09:23:25,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:23:25,2019-08-22 09:23:25,0.734s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:23:25,2019-08-22 09:23:25,0.153s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:25,2019-08-22 09:23:26,0.115s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:23:26,2019-08-22 09:23:26,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:23:26,2019-08-22 09:23:58,32.835s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:23:58,2019-08-22 09:23:59,0.258s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:23:59,2019-08-22 09:23:59,0.214s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:23:59,2019-08-22 09:24:00,0.696s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:24:00,2019-08-22 09:24:00,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:24:00,2019-08-22 09:24:05,5.210s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:24:05,2019-08-22 09:24:05,0.152s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:24:05,2019-08-22 09:24:20,14.878s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:24:20,2019-08-22 09:24:20,0.178s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:24:20,2019-08-22 09:25:38,1m - 18.273s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:38,2019-08-22 09:25:38,0.229s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:25:38,2019-08-22 09:25:39,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:39,2019-08-22 09:25:39,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:39,2019-08-22 09:25:40,0.174s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:40,2019-08-22 09:25:40,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:25:40,2019-08-22 09:25:41,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:41,2019-08-22 09:25:41,0.126s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:41,2019-08-22 09:25:41,0.001s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:41,2019-08-22 09:25:41,0.693s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:25:41,2019-08-22 09:28:08,2m - 26.849s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:25:42,2019-08-22 09:25:42,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:25:42,2019-08-22 09:25:42,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:25:42,2019-08-22 09:25:42,0.001s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:25:42,2019-08-22 09:25:45,3.002s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:45,2019-08-22 09:25:45,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:25:45,2019-08-22 09:25:45,0.319s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:45,2019-08-22 09:25:45,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:45,2019-08-22 09:25:45,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:25:45,2019-08-22 09:25:47,1.535s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:47,2019-08-22 09:25:47,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:25:47,2019-08-22 09:25:47,0.316s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:47,2019-08-22 09:25:47,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:25:47,2019-08-22 09:25:49,2.122s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:49,2019-08-22 09:25:49,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:25:49,2019-08-22 09:25:49,0.184s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:49,2019-08-22 09:25:49,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:25:49,2019-08-22 09:25:50,0.727s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:50,2019-08-22 09:25:50,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:50,2019-08-22 09:25:50,0.143s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:25:50,2019-08-22 09:25:51,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:51,2019-08-22 09:25:51,0.180s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:51,2019-08-22 09:25:51,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:25:51,2019-08-22 09:25:52,0.765s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:25:52,2019-08-22 09:25:52,0.158s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:25:52,2019-08-22 09:25:52,0.113s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:25:52,2019-08-22 09:25:52,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:25:52,2019-08-22 09:26:25,32.910s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:26:25,2019-08-22 09:26:25,0.276s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:26:25,2019-08-22 09:26:26,0.227s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:26:26,2019-08-22 09:26:26,0.675s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:26:26,2019-08-22 09:26:26,0.001s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:26:26,2019-08-22 09:26:32,5.182s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:26:32,2019-08-22 09:26:32,0.157s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:26:32,2019-08-22 09:26:47,14.893s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:26:47,2019-08-22 09:26:47,0.166s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:26:47,2019-08-22 09:28:05,1m - 18.427s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:05,2019-08-22 09:28:05,0.134s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:28:05,2019-08-22 09:28:06,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:06,2019-08-22 09:28:06,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:06,2019-08-22 09:28:06,0.191s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:06,2019-08-22 09:28:06,0.002s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:28:06,2019-08-22 09:28:07,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:07,2019-08-22 09:28:08,0.135s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:28:08,0.001s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:28:08,0.704s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:30:38,2m - 29.949s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:28:08,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:28:08,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:28:08,2019-08-22 09:28:08,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:28:09,2019-08-22 09:28:12,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:12,2019-08-22 09:28:12,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:28:12,2019-08-22 09:28:12,0.335s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:12,2019-08-22 09:28:12,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:12,2019-08-22 09:28:12,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:28:12,2019-08-22 09:28:14,1.659s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:14,2019-08-22 09:28:14,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:28:14,2019-08-22 09:28:14,0.289s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:14,2019-08-22 09:28:14,0.002s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:28:14,2019-08-22 09:28:16,2.144s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:16,2019-08-22 09:28:16,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:28:16,2019-08-22 09:28:16,0.173s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:16,2019-08-22 09:28:16,0.001s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:28:16,2019-08-22 09:28:17,0.695s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:17,2019-08-22 09:28:17,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:17,2019-08-22 09:28:17,0.131s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:28:17,2019-08-22 09:28:18,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:18,2019-08-22 09:28:18,0.147s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:18,2019-08-22 09:28:18,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:28:18,2019-08-22 09:28:19,0.741s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:28:19,2019-08-22 09:28:19,0.157s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:19,2019-08-22 09:28:19,0.139s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:19,2019-08-22 09:28:19,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:28:19,2019-08-22 09:28:52,32.731s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:28:52,2019-08-22 09:28:52,0.274s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:52,2019-08-22 09:28:52,0.217s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:28:52,2019-08-22 09:28:53,0.736s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:28:53,2019-08-22 09:28:53,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:28:53,2019-08-22 09:28:58,5.177s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:28:58,2019-08-22 09:28:58,0.149s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:28:58,2019-08-22 09:29:13,14.883s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:29:13,2019-08-22 09:29:14,0.185s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:29:14,2019-08-22 09:30:35,1m - 21.577s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:35,2019-08-22 09:30:35,0.231s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:30:35,2019-08-22 09:30:36,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:36,2019-08-22 09:30:36,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:36,2019-08-22 09:30:36,0.133s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:36,2019-08-22 09:30:36,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:30:36,2019-08-22 09:30:37,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:37,2019-08-22 09:30:38,0.131s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:38,0.001s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:38,0.676s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:33:05,2m - 26.838s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:38,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:38,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:38,0.001s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:30:38,2019-08-22 09:30:41,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:41,2019-08-22 09:30:41,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:30:41,2019-08-22 09:30:42,0.326s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:42,2019-08-22 09:30:42,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:42,2019-08-22 09:30:42,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:30:42,2019-08-22 09:30:43,1.563s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:43,2019-08-22 09:30:43,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:30:43,2019-08-22 09:30:44,0.303s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:44,2019-08-22 09:30:44,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:30:44,2019-08-22 09:30:46,2.105s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:46,2019-08-22 09:30:46,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:30:46,2019-08-22 09:30:46,0.197s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:46,2019-08-22 09:30:46,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:30:46,2019-08-22 09:30:47,0.730s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:47,2019-08-22 09:30:47,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:47,2019-08-22 09:30:47,0.128s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:30:47,2019-08-22 09:30:48,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:48,2019-08-22 09:30:48,0.142s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:48,2019-08-22 09:30:48,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:30:48,2019-08-22 09:30:49,0.758s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:30:49,2019-08-22 09:30:49,0.154s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:30:49,2019-08-22 09:30:49,0.104s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:30:49,2019-08-22 09:30:49,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:30:49,2019-08-22 09:31:22,32.811s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:31:22,2019-08-22 09:31:22,0.256s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:31:22,2019-08-22 09:31:22,0.237s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:31:22,2019-08-22 09:31:23,0.760s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:31:23,2019-08-22 09:31:23,0.001s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:31:23,2019-08-22 09:31:28,5.316s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:31:28,2019-08-22 09:31:28,0.163s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:31:28,2019-08-22 09:31:43,14.718s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:31:43,2019-08-22 09:31:43,0.155s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:31:43,2019-08-22 09:33:02,1m - 18.667s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:02,2019-08-22 09:33:02,0.136s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:33:02,2019-08-22 09:33:03,1.003s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:03,2019-08-22 09:33:03,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:03,2019-08-22 09:33:03,0.160s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:03,2019-08-22 09:33:03,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:33:03,2019-08-22 09:33:04,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:04,2019-08-22 09:33:04,0.142s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:04,2019-08-22 09:33:04,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:04,2019-08-22 09:33:05,0.674s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:33:05,2019-08-22 09:35:33,2m - 27.690s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:33:05,2019-08-22 09:33:05,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:33:05,2019-08-22 09:33:05,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:33:05,2019-08-22 09:33:05,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:33:05,2019-08-22 09:33:08,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:08,2019-08-22 09:33:08,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:33:08,2019-08-22 09:33:09,0.331s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:09,2019-08-22 09:33:09,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:09,2019-08-22 09:33:09,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:33:09,2019-08-22 09:33:10,1.626s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:10,2019-08-22 09:33:10,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:33:10,2019-08-22 09:33:11,0.308s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:11,2019-08-22 09:33:11,0.001s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:33:11,2019-08-22 09:33:13,2.165s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:13,2019-08-22 09:33:13,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:33:13,2019-08-22 09:33:13,0.173s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:13,2019-08-22 09:33:13,0.001s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:33:13,2019-08-22 09:33:14,0.699s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:14,2019-08-22 09:33:14,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:14,2019-08-22 09:33:14,0.129s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:33:14,2019-08-22 09:33:15,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:15,2019-08-22 09:33:15,0.133s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:15,2019-08-22 09:33:15,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:33:15,2019-08-22 09:33:16,0.813s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:33:16,2019-08-22 09:33:16,0.160s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:16,2019-08-22 09:33:16,0.109s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:16,2019-08-22 09:33:16,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:33:16,2019-08-22 09:33:49,32.824s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:33:49,2019-08-22 09:33:49,0.262s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:49,2019-08-22 09:33:49,0.225s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:33:49,2019-08-22 09:33:50,0.688s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:33:50,2019-08-22 09:33:50,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:33:50,2019-08-22 09:33:55,5.393s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:33:55,2019-08-22 09:33:55,0.145s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:33:55,2019-08-22 09:34:11,15.069s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:34:11,2019-08-22 09:34:11,0.149s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:34:11,2019-08-22 09:35:30,1m - 18.948s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:30,2019-08-22 09:35:30,0.138s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:35:30,2019-08-22 09:35:31,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:31,2019-08-22 09:35:31,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:31,2019-08-22 09:35:31,0.215s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:31,2019-08-22 09:35:31,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:35:31,2019-08-22 09:35:32,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:32,2019-08-22 09:35:32,0.144s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:32,2019-08-22 09:35:32,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:32,2019-08-22 09:35:33,0.679s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:35:33,2019-08-22 09:38:01,2m - 28.473s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:35:33,2019-08-22 09:35:33,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:35:33,2019-08-22 09:35:33,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:35:33,2019-08-22 09:35:33,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:35:33,2019-08-22 09:35:36,3.002s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:36,2019-08-22 09:35:36,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:35:36,2019-08-22 09:35:36,0.352s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:36,2019-08-22 09:35:36,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:36,2019-08-22 09:35:36,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:35:36,2019-08-22 09:35:38,1.576s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:38,2019-08-22 09:35:38,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:35:38,2019-08-22 09:35:38,0.361s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:38,2019-08-22 09:35:38,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:35:38,2019-08-22 09:35:40,2.118s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:40,2019-08-22 09:35:40,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:35:40,2019-08-22 09:35:41,0.305s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:41,2019-08-22 09:35:41,0.001s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:35:41,2019-08-22 09:35:41,0.710s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:41,2019-08-22 09:35:41,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:41,2019-08-22 09:35:42,0.125s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:35:42,2019-08-22 09:35:43,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:43,2019-08-22 09:35:43,0.215s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:43,2019-08-22 09:35:43,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:35:43,2019-08-22 09:35:44,0.756s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:35:44,2019-08-22 09:35:44,0.198s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:35:44,2019-08-22 09:35:44,0.143s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:35:44,2019-08-22 09:35:44,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:35:44,2019-08-22 09:36:17,32.971s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:36:17,2019-08-22 09:36:17,0.366s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:36:17,2019-08-22 09:36:17,0.264s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:36:17,2019-08-22 09:36:18,0.700s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:36:18,2019-08-22 09:36:18,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:36:18,2019-08-22 09:36:23,5.227s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:36:23,2019-08-22 09:36:24,0.169s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:36:24,2019-08-22 09:36:38,14.769s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:36:38,2019-08-22 09:36:38,0.150s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:36:38,2019-08-22 09:37:58,1m - 19.658s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:37:58,2019-08-22 09:37:58,0.134s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:37:58,2019-08-22 09:37:59,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:37:59,2019-08-22 09:37:59,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:37:59,2019-08-22 09:37:59,0.200s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:37:59,2019-08-22 09:37:59,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:37:59,2019-08-22 09:38:00,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:00,2019-08-22 09:38:01,0.153s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:01,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:01,0.675s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:40:29,2m - 28.087s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:01,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:01,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:01,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:38:01,2019-08-22 09:38:04,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:04,2019-08-22 09:38:04,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:38:04,2019-08-22 09:38:05,0.348s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:05,2019-08-22 09:38:05,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:05,2019-08-22 09:38:05,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:38:05,2019-08-22 09:38:06,1.680s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:06,2019-08-22 09:38:06,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:38:06,2019-08-22 09:38:07,0.304s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:07,2019-08-22 09:38:07,0.001s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:38:07,2019-08-22 09:38:09,2.129s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:09,2019-08-22 09:38:09,0.003s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:38:09,2019-08-22 09:38:09,0.171s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:09,2019-08-22 09:38:09,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:38:09,2019-08-22 09:38:10,0.739s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:10,2019-08-22 09:38:10,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:10,2019-08-22 09:38:10,0.128s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:38:10,2019-08-22 09:38:11,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:11,2019-08-22 09:38:11,0.145s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:11,2019-08-22 09:38:11,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:38:11,2019-08-22 09:38:12,0.754s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:38:12,2019-08-22 09:38:12,0.171s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:12,2019-08-22 09:38:12,0.113s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:12,2019-08-22 09:38:12,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:38:12,2019-08-22 09:38:45,32.864s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:38:45,2019-08-22 09:38:45,0.289s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:45,2019-08-22 09:38:45,0.224s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:38:45,2019-08-22 09:38:46,0.763s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:38:46,2019-08-22 09:38:46,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:38:46,2019-08-22 09:38:51,5.206s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:38:51,2019-08-22 09:38:52,0.152s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:38:52,2019-08-22 09:39:07,15.141s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:39:07,2019-08-22 09:39:07,0.197s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:39:07,2019-08-22 09:40:26,1m - 19.306s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:26,2019-08-22 09:40:26,0.146s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:40:26,2019-08-22 09:40:27,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:27,2019-08-22 09:40:27,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:27,2019-08-22 09:40:28,0.166s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:28,2019-08-22 09:40:28,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:40:28,2019-08-22 09:40:29,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.140s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.001s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.686s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:43:03,2m - 33.691s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:40:29,2019-08-22 09:40:29,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:40:30,2019-08-22 09:40:33,3.002s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:33,2019-08-22 09:40:33,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:40:33,2019-08-22 09:40:33,0.385s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:33,2019-08-22 09:40:33,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:33,2019-08-22 09:40:33,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:40:33,2019-08-22 09:40:35,1.691s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:35,2019-08-22 09:40:35,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:40:35,2019-08-22 09:40:35,0.292s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:35,2019-08-22 09:40:35,0.001s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:40:35,2019-08-22 09:40:37,2.133s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:37,2019-08-22 09:40:37,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:40:37,2019-08-22 09:40:37,0.171s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:37,2019-08-22 09:40:37,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:40:37,2019-08-22 09:40:38,0.693s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:38,2019-08-22 09:40:38,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:38,2019-08-22 09:40:38,0.130s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:40:38,2019-08-22 09:40:39,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:39,2019-08-22 09:40:39,0.147s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:39,2019-08-22 09:40:39,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:40:39,2019-08-22 09:40:40,0.729s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:40:40,2019-08-22 09:40:40,0.170s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:40:40,2019-08-22 09:40:40,0.115s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:40:40,2019-08-22 09:40:40,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:40:40,2019-08-22 09:41:13,32.763s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:41:13,2019-08-22 09:41:13,0.274s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:41:13,2019-08-22 09:41:13,0.247s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:41:13,2019-08-22 09:41:14,0.736s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:41:14,2019-08-22 09:41:14,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:41:14,2019-08-22 09:41:20,5.300s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:41:20,2019-08-22 09:41:20,0.173s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:41:20,2019-08-22 09:41:35,14.859s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:41:35,2019-08-22 09:41:35,0.170s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:41:35,2019-08-22 09:43:00,1m - 25.122s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:00,2019-08-22 09:43:00,0.143s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:43:00,2019-08-22 09:43:01,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:01,2019-08-22 09:43:01,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:01,2019-08-22 09:43:01,0.158s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:01,2019-08-22 09:43:01,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:43:01,2019-08-22 09:43:02,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:02,2019-08-22 09:43:02,0.229s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:02,2019-08-22 09:43:02,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:02,2019-08-22 09:43:03,0.690s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:43:03,2019-08-22 09:45:35,2m - 31.966s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:43:03,2019-08-22 09:43:03,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:43:03,2019-08-22 09:43:03,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:43:03,2019-08-22 09:43:03,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:43:03,2019-08-22 09:43:06,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:06,2019-08-22 09:43:06,0.002s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:43:06,2019-08-22 09:43:07,0.348s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:07,2019-08-22 09:43:07,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:07,2019-08-22 09:43:07,0.001s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:43:07,2019-08-22 09:43:08,1.604s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:08,2019-08-22 09:43:08,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:43:08,2019-08-22 09:43:08,0.330s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:08,2019-08-22 09:43:08,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:43:08,2019-08-22 09:43:11,2.118s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:11,2019-08-22 09:43:11,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:43:11,2019-08-22 09:43:11,0.313s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:11,2019-08-22 09:43:11,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:43:11,2019-08-22 09:43:12,0.754s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:12,2019-08-22 09:43:12,0.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:12,2019-08-22 09:43:12,0.144s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:43:12,2019-08-22 09:43:13,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:13,2019-08-22 09:43:13,0.136s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:13,2019-08-22 09:43:13,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:43:13,2019-08-22 09:43:14,0.753s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:43:14,2019-08-22 09:43:14,0.227s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:14,2019-08-22 09:43:14,0.139s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:14,2019-08-22 09:43:14,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:43:14,2019-08-22 09:43:47,32.779s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:43:47,2019-08-22 09:43:47,0.281s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:47,2019-08-22 09:43:47,0.207s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:43:47,2019-08-22 09:43:48,0.678s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:43:48,2019-08-22 09:43:48,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:43:48,2019-08-22 09:43:53,5.192s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:43:53,2019-08-22 09:43:53,0.152s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:43:53,2019-08-22 09:44:09,15.426s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:44:09,2019-08-22 09:44:09,0.399s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:44:09,2019-08-22 09:45:32,1m - 22.684s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:32,2019-08-22 09:45:32,0.194s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:45:32,2019-08-22 09:45:33,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:33,2019-08-22 09:45:33,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:33,2019-08-22 09:45:33,0.145s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:33,2019-08-22 09:45:33,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:45:33,2019-08-22 09:45:34,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:34,2019-08-22 09:45:34,0.195s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:34,2019-08-22 09:45:34,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:34,2019-08-22 09:45:35,0.664s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:45:35,2019-08-22 09:48:03,2m - 27.885s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:45:35,2019-08-22 09:45:35,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:45:35,2019-08-22 09:45:35,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:45:35,2019-08-22 09:45:35,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:45:35,2019-08-22 09:45:38,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:38,2019-08-22 09:45:38,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:45:38,2019-08-22 09:45:39,0.356s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:39,2019-08-22 09:45:39,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:39,2019-08-22 09:45:39,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:45:39,2019-08-22 09:45:40,1.607s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:40,2019-08-22 09:45:40,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:45:40,2019-08-22 09:45:41,0.326s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:41,2019-08-22 09:45:41,0.001s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:45:41,2019-08-22 09:45:43,2.317s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:43,2019-08-22 09:45:43,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:45:43,2019-08-22 09:45:43,0.186s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:43,2019-08-22 09:45:43,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:45:43,2019-08-22 09:45:44,0.729s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:44,2019-08-22 09:45:44,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:44,2019-08-22 09:45:44,0.154s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:45:44,2019-08-22 09:45:45,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:45,2019-08-22 09:45:45,0.174s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:45,2019-08-22 09:45:45,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:45:45,2019-08-22 09:45:46,0.766s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:45:46,2019-08-22 09:45:46,0.169s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:45:46,2019-08-22 09:45:46,0.119s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:45:46,2019-08-22 09:45:46,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:45:46,2019-08-22 09:46:19,32.860s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:46:19,2019-08-22 09:46:19,0.306s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:46:19,2019-08-22 09:46:20,0.227s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:46:20,2019-08-22 09:46:20,0.673s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:46:20,2019-08-22 09:46:20,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:46:20,2019-08-22 09:46:25,5.195s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:46:25,2019-08-22 09:46:26,0.149s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:46:26,2019-08-22 09:46:40,14.781s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:46:40,2019-08-22 09:46:41,0.160s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:46:41,2019-08-22 09:48:00,1m - 19.280s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:00,2019-08-22 09:48:00,0.143s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:48:00,2019-08-22 09:48:01,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:01,2019-08-22 09:48:01,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:01,2019-08-22 09:48:01,0.182s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:01,2019-08-22 09:48:01,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:48:01,2019-08-22 09:48:02,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:02,2019-08-22 09:48:02,0.136s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:02,2019-08-22 09:48:02,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:02,2019-08-22 09:48:03,0.678s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:48:03,2019-08-22 09:50:32,2m - 28.561s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:48:03,2019-08-22 09:48:03,0.000s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:48:03,2019-08-22 09:48:03,0.000s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:48:03,2019-08-22 09:48:03,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:48:03,2019-08-22 09:48:06,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:06,2019-08-22 09:48:06,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:48:06,2019-08-22 09:48:06,0.347s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:06,2019-08-22 09:48:06,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:06,2019-08-22 09:48:06,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:48:06,2019-08-22 09:48:08,1.684s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:08,2019-08-22 09:48:08,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:48:08,2019-08-22 09:48:08,0.330s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:08,2019-08-22 09:48:08,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:48:08,2019-08-22 09:48:11,2.180s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:11,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:11,0.179s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:11,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:11,0.720s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:11,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:11,2019-08-22 09:48:12,0.126s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:48:12,2019-08-22 09:48:13,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:13,2019-08-22 09:48:13,0.205s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:13,2019-08-22 09:48:13,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:48:13,2019-08-22 09:48:14,0.781s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:48:14,2019-08-22 09:48:14,0.167s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:14,2019-08-22 09:48:14,0.110s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:14,2019-08-22 09:48:14,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:48:14,2019-08-22 09:48:47,32.835s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:48:47,2019-08-22 09:48:47,0.272s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:47,2019-08-22 09:48:47,0.230s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:48:47,2019-08-22 09:48:48,0.770s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:48:48,2019-08-22 09:48:48,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:48:48,2019-08-22 09:48:53,5.206s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:48:53,2019-08-22 09:48:53,0.142s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:48:53,2019-08-22 09:49:09,15.373s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:49:09,2019-08-22 09:49:09,0.157s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:49:09,2019-08-22 09:50:28,1m - 19.500s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:28,2019-08-22 09:50:28,0.144s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:50:28,2019-08-22 09:50:29,1.001s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:29,2019-08-22 09:50:29,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:29,2019-08-22 09:50:30,0.187s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:30,2019-08-22 09:50:30,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:50:30,2019-08-22 09:50:31,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:31,2019-08-22 09:50:31,0.152s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:31,2019-08-22 09:50:31,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:31,2019-08-22 09:50:31,0.686s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:50:32,2019-08-22 09:53:00,2m - 28.644s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:50:32,2019-08-22 09:50:32,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:50:32,2019-08-22 09:50:32,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:50:32,2019-08-22 09:50:32,0.000s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:50:32,2019-08-22 09:50:35,3.001s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:35,2019-08-22 09:50:35,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:50:35,2019-08-22 09:50:35,0.362s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:35,2019-08-22 09:50:35,0.001s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:35,2019-08-22 09:50:35,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:50:35,2019-08-22 09:50:37,1.695s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:37,2019-08-22 09:50:37,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:50:37,2019-08-22 09:50:37,0.308s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:37,2019-08-22 09:50:37,0.000s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:50:37,2019-08-22 09:50:39,2.139s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:39,2019-08-22 09:50:39,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:50:39,2019-08-22 09:50:39,0.182s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:39,2019-08-22 09:50:39,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:50:39,2019-08-22 09:50:40,0.727s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:40,2019-08-22 09:50:40,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:40,2019-08-22 09:50:40,0.158s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:50:40,2019-08-22 09:50:41,1.003s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:41,2019-08-22 09:50:41,0.148s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:41,2019-08-22 09:50:41,0.000s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:50:41,2019-08-22 09:50:42,0.769s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:50:42,2019-08-22 09:50:42,0.170s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:50:42,2019-08-22 09:50:43,0.107s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:50:43,2019-08-22 09:50:43,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:50:43,2019-08-22 09:51:15,32.753s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:51:15,2019-08-22 09:51:16,0.294s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:51:16,2019-08-22 09:51:16,0.231s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:51:16,2019-08-22 09:51:17,0.787s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:51:17,2019-08-22 09:51:17,0.001s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:51:17,2019-08-22 09:51:22,5.207s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:51:22,2019-08-22 09:51:22,0.151s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:51:22,2019-08-22 09:51:37,15.011s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:51:37,2019-08-22 09:51:37,0.153s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:51:37,2019-08-22 09:52:57,1m - 19.746s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:52:57,2019-08-22 09:52:57,0.190s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:52:57,2019-08-22 09:52:58,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:52:58,2019-08-22 09:52:58,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:52:58,2019-08-22 09:52:58,0.275s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:52:58,2019-08-22 09:52:58,0.000s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:52:58,2019-08-22 09:52:59,1.002s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:52:59,2019-08-22 09:52:59,0.157s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:52:59,2019-08-22 09:52:59,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:52:59,2019-08-22 09:53:00,0.684s,PASSED
+,,,,,,,
+Test Cases/DataPreparation/PartyOnboardingEnterprise,Chrome 76.0.3809.100,,,2019-08-22 09:53:00,2019-08-22 09:55:29,2m - 28.732s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 76.0.3809.100,,,2019-08-22 09:53:00,2019-08-22 09:53:00,0.001s,PASSED
+log = new com.kms.katalon.core.util.KeywordUtil(),Chrome 76.0.3809.100,,,2019-08-22 09:53:00,2019-08-22 09:53:00,0.001s,PASSED
+partyOnboardingEnterprise = new pageObjects.PartyOnboarding(),Chrome 76.0.3809.100,,,2019-08-22 09:53:00,2019-08-22 09:53:00,0.001s,PASSED
+delay(3),Chrome 76.0.3809.100,,,2019-08-22 09:53:00,2019-08-22 09:53:03,3.004s,PASSED
+"log.logInfo(""--- Open Party Onboarding in Menu Search ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:03,2019-08-22 09:53:03,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyOnboardingMenuSearch(),Chrome 76.0.3809.100,,,2019-08-22 09:53:03,2019-08-22 09:53:04,0.365s,PASSED
+"log.logInfo(""/---------------Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:04,2019-08-22 09:53:04,0.000s,PASSED
+"log.logInfo(""--- Input Local Global ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:04,2019-08-22 09:53:04,0.000s,PASSED
+partyOnboardingEnterprise.inputLocalGlobal(s01_localglobal),Chrome 76.0.3809.100,,,2019-08-22 09:53:04,2019-08-22 09:53:05,1.673s,PASSED
+"log.logInfo(""--- Input Party Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:05,2019-08-22 09:53:05,0.001s,PASSED
+partyOnboardingEnterprise.inputPartyType(s01_partytype),Chrome 76.0.3809.100,,,2019-08-22 09:53:05,2019-08-22 09:53:06,0.312s,PASSED
+"log.logInfo(""--- Input Party Sub Type ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:06,2019-08-22 09:53:06,0.001s,PASSED
+partyOnboardingEnterprise.inputPartySubType(s01_partysubtype),Chrome 76.0.3809.100,,,2019-08-22 09:53:06,2019-08-22 09:53:08,2.127s,PASSED
+"log.logInfo(""--- Input Party Category ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:08,2019-08-22 09:53:08,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyCategory(s01_partycategory),Chrome 76.0.3809.100,,,2019-08-22 09:53:08,2019-08-22 09:53:08,0.183s,PASSED
+"log.logInfo(""--- Check Line of Business ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:08,2019-08-22 09:53:08,0.000s,PASSED
+"partyOnboardingEnterprise.clickLineofBusiness(s01_lineofbusiness, findTestObject(""PartyOnboarding/PartyOnboarding/div_Core Banking""))",Chrome 76.0.3809.100,,,2019-08-22 09:53:08,2019-08-22 09:53:09,0.717s,PASSED
+"log.logInfo(""--- Click Next to Party Check List  ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:09,2019-08-22 09:53:09,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:53:09,2019-08-22 09:53:09,0.124s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:53:09,2019-08-22 09:53:10,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:53:10,2019-08-22 09:53:10,0.114s,PASSED
+"log.logInfo(""/---------------Pre-Existence Check---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:10,2019-08-22 09:53:10,0.001s,PASSED
+partyOnboardingEnterprise.inputEnterpriseName(s02_enterpriseName),Chrome 76.0.3809.100,,,2019-08-22 09:53:10,2019-08-22 09:53:11,0.738s,PASSED
+partyOnboardingEnterprise.inputRegistration(),Chrome 76.0.3809.100,,,2019-08-22 09:53:11,2019-08-22 09:53:11,0.176s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:53:11,2019-08-22 09:53:11,0.113s,PASSED
+"log.logInfo(""/--------------- Party Onboarding---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:11,2019-08-22 09:53:11,0.000s,PASSED
+partyOnboardingEnterprise.inputPartyId(),Chrome 76.0.3809.100,,,2019-08-22 09:53:11,2019-08-22 09:53:44,32.755s,PASSED
+partyOnboardingEnterprise.inputShortNameEnterprise(s03_shortName),Chrome 76.0.3809.100,,,2019-08-22 09:53:44,2019-08-22 09:53:44,0.299s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:53:44,2019-08-22 09:53:44,0.224s,PASSED
+partyOnboardingEnterprise.clickProcessInWarningBox(),Chrome 76.0.3809.100,,,2019-08-22 09:53:44,2019-08-22 09:53:45,0.721s,PASSED
+"log.logInfo(""/--------------- Party Onboarding - Address---------------/"")",Chrome 76.0.3809.100,,,2019-08-22 09:53:45,2019-08-22 09:53:45,0.000s,PASSED
+"partyOnboardingEnterprise.inputRDataForAddressParty(s04_addressType, s04_userForCommunication, s04_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:53:45,2019-08-22 09:53:50,5.216s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:53:50,2019-08-22 09:53:50,0.171s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyContacts(s05_contactMethod, s05_contactTypeLocation, s05_contactCountryCode, s05_contactAreaCode, s05_contactNumber, s05_contactEmail, s05_confirmEmail, s05_validFrom)",Chrome 76.0.3809.100,,,2019-08-22 09:53:50,2019-08-22 09:54:05,15.107s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:54:05,2019-08-22 09:54:06,0.156s,PASSED
+"partyOnboardingEnterprise.inputDataForPartyRequiredDocuments(s06_documentCategory, s06_kycExpired, s06_documentType, s06_validFrom, s06_validTo, s06_referenceNumber, s06_issuingAuthority, s06_issuingCountry, s06_documentVerified, s06_image, s06_documentCollectionStatus)",Chrome 76.0.3809.100,,,2019-08-22 09:54:06,2019-08-22 09:55:26,1m - 20.243s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:55:26,2019-08-22 09:55:26,0.140s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:55:26,2019-08-22 09:55:27,1.002s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:55:27,2019-08-22 09:55:27,0.000s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:55:27,2019-08-22 09:55:27,0.149s,PASSED
+"log.logInfo(""--- "" + "" Click Next button ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:55:27,2019-08-22 09:55:27,0.001s,PASSED
+delay(1),Chrome 76.0.3809.100,,,2019-08-22 09:55:27,2019-08-22 09:55:28,1.001s,PASSED
+partyOnboardingEnterprise.clickNextbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:55:28,2019-08-22 09:55:28,0.140s,PASSED
+"log.logInfo(""--- "" + "" Click Process on Warning box ---"")",Chrome 76.0.3809.100,,,2019-08-22 09:55:28,2019-08-22 09:55:28,0.000s,PASSED
+partyOnboardingEnterprise.clickAskForApprovalbutton(),Chrome 76.0.3809.100,,,2019-08-22 09:55:28,2019-08-22 09:55:29,0.701s,PASSED

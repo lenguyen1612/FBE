@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="PartyOnboardingPersonal" time="127" tests="2" failures="1" errors="0">
+    <testsuite name="PartyOnboardingPersonal" tests="2" failures="1" errors="0" time="127" timestamp="2019-08-24 12:52:58" hostname="HP - CNU406BFVL" id="Test Suites/DataPreparation/PartyOnboardingPersonal">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190824_125255"/>
+            <property name="logFiles" value="C:\\ML\\JITS\\AYA\\Automation\\FBE\\FBE\\Reports\\DataPreparation\\PartyOnboardingPersonal\\20190824_125255\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="HP - CNU406BFVL"/>
+            <property name="os" value="Windows 7 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+            <property name="browser" value="Chrome 76.0.3809.100"/>
+            <property name="hostAddress" value="10.9.13.62"/>
+            <property name="sessionId" value="85079e2065aeff1efc8e0283d04f40b6"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 7"/>
+        </properties>
+        <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+            <system-out>2019-08-24 12:52:59 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login&#xD;
+&#xD;
+2019-08-24 12:52:59 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-24 12:52:59 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-24 12:52:59 - [TEST_STEP][PASSED] - logger = new com.kms.katalon.core.util.KeywordUtil(): null&#xD;
+&#xD;
+2019-08-24 12:52:59 - [TEST_STEP][PASSED] - loginPage = new pageObjects.LoginPage(): null&#xD;
+&#xD;
+2019-08-24 12:52:59 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step01 - Open browser"): Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-24 12:53:00 - [MESSAGE][INFO] - Login - Step01 - Open browser&#xD;
+&#xD;
+2019-08-24 12:53:00 - [TEST_STEP][PASSED] - loginPage.openBrowser(url, active): Current window maximized&#xD;
+&#xD;
+2019-08-24 12:53:00 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-08-24 12:53:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-08-24 12:53:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://172.24.192.30:9080/uxp/rt/html/layout.html?locale=en-gb'&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step02 - Input Username"): Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][INFO] - Login - Step02 - Input Username&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - loginPage.inputUsername(username, active): Keys 'br1user017' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Username_user' is present&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Keys 'br1user017' sent to object: 'Object Repository/LogIn/input_Username_user'&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step03 - Input Password"): Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][INFO] - Login - Step03 - Input Password&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - loginPage.inputPassword(password, active): Keys 'User017$#@' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_pwd' is present&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Keys 'User017$#@' sent to object: 'Object Repository/LogIn/input_Password_pwd'&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - logger.logInfo("Login - Step04 - Click Sign In button"): Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][INFO] - Login - Step04 - Click Sign In button&#xD;
+&#xD;
+2019-08-24 12:53:10 - [TEST_STEP][PASSED] - loginPage.clickSingin(active): Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/LogIn/input_Password_login' is present&#xD;
+&#xD;
+2019-08-24 12:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/input_Password_login' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:11 - [TEST_STEP][PASSED] - logger.logInfo("Login - wait load page"): Login - wait load page&#xD;
+&#xD;
+2019-08-24 12:53:11 - [MESSAGE][INFO] - Login - wait load page&#xD;
+&#xD;
+2019-08-24 12:53:11 - [TEST_STEP][PASSED] - loginPage.waitLoadPage(active): Wait for page load successfully&#xD;
+&#xD;
+2019-08-24 12:53:11 - [MESSAGE][PASSED] - Wait for page load successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/DataPreparation/ApprovalDataPreparation" classname="Test Cases/DataPreparation/ApprovalDataPreparation" status="PASSED">
+            <system-out>2019-08-24 12:53:11 - [TEST_CASE][PASSED] - Test Cases/DataPreparation/ApprovalDataPreparation: Test Cases/DataPreparation/ApprovalDataPreparation&#xD;
+&#xD;
+2019-08-24 12:53:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-24 12:53:11 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - log = new com.kms.katalon.core.util.KeywordUtil(): null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - notificationPage = new pageObjects.NotificationPage(): null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - step = "": null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - step = "1": null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Notification icon"): Approval - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-24 12:53:12 - [MESSAGE][INFO] - Approval - Step01 Click Notification icon&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - notificationPage.clickNotificationIcon(): Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/NotificationIcon_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - step = "2": null&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Referral description"): Approval - Step02 Click Referral description&#xD;
+&#xD;
+2019-08-24 12:53:12 - [MESSAGE][INFO] - Approval - Step02 Click Referral description&#xD;
+&#xD;
+2019-08-24 12:53:12 - [TEST_STEP][PASSED] - notificationPage.clickDescription("Referral"): Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/NotificationPage/NotificationTypes_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/NotificationPage/NotificationTypes_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/PartyOnboarding/btn_Next' is visible&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click();' successfully&#xD;
+&#xD;
+2019-08-24 12:53:14 - [TEST_STEP][PASSED] - step = "3": null&#xD;
+&#xD;
+2019-08-24 12:53:14 - [TEST_STEP][PASSED] - log.logInfo("Approval - Step0" + step + " Click Approval for Party"): Approval - Step03 Click Approval for Party&#xD;
+&#xD;
+2019-08-24 12:53:14 - [MESSAGE][INFO] - Approval - Step03 Click Approval for Party&#xD;
+&#xD;
+2019-08-24 12:53:14 - [TEST_STEP][PASSED] - notificationPage.clickApproved(description): Web element with id: 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' located by 'By.xpath: //td[text()='Referral' and @idx=1]/following-sibling::td[@idx='4']' not found&#xD;
+&#xD;
+2019-08-24 12:53:15 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:16 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:17 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:18 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:19 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:20 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:20 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:22 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:23 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:26 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:29 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:31 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:32 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:32 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:34 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:36 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:37 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:38 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:40 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:42 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:43 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:44 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:45 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/NotificationPage/TaskDescription_txt' is: 'Supervisor Authorization required for Party Onboarding'&#xD;
+&#xD;
+2019-08-24 12:53:46 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is visible&#xD;
+&#xD;
+2019-08-24 12:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ProcessApprovalConfirmation/Approve_btn' is clicked on&#xD;
+&#xD;
+2019-08-24 12:53:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is present&#xD;
+&#xD;
+2019-08-24 12:53:46 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' is visible&#xD;
+&#xD;
+2019-08-24 12:53:47 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is visible&#xD;
+&#xD;
+2019-08-24 12:53:47 - [MESSAGE][PASSED] - Object 'Object Repository/ProcessApprovalConfirmation/ListTaskID_rdo' is clickable&#xD;
+&#xD;
+2019-08-24 12:53:48 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:53:49 - [MESSAGE][PASSED] - Delayed 1 second(s)&#xD;
+&#xD;
+2019-08-24 12:54:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[text()='Referral' and @idx=1]/following-sibling::td[@idx='4']'. Please recheck the objects properties to make sure the desired element is located. &#xD;
+&#xD;
+2019-08-24 12:54:20 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/ProcessApprovalConfirmation/ListTaskID_txt' located by 'By.xpath: //td[text()='Referral' and @idx=1]/following-sibling::td[@idx='4']' not found</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/LogOutFromSystem" classname="Test Cases/LogOutFromSystem" status="FAILED">
+            <failure type="FAILED" message="Test Cases/LogOutFromSystem FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogOut/Menu_Logoff'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;&#xA;&#x9;at LogOutFromSystem.run(LogOutFromSystem:16)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1566627775883.run(TempTestSuite1566627775883.groovy:35)&#xD;&#xA;Caused by: org.openqa.selenium.WebDriverException: chrome not reachable&#xA;  (Session info: chrome=76.0.3809.100)&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xA;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:45092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: 85079e2065aeff1efc8e0283d04f40b6&#xA;*** Element info: {Using=xpath, value=//span[@id='uxpHelpMenu']}&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;&#xA;&#x9;at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-08-24 12:54:53 - [TEST_CASE][FAILED] - Test Cases/LogOutFromSystem: Test Cases/LogOutFromSystem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogOut/Menu_Logoff'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at LogOutFromSystem.run(LogOutFromSystem:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566627775883.run(TempTestSuite1566627775883.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:45092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85079e2065aeff1efc8e0283d04f40b6
+*** Element info: {Using=xpath, value=//span[@id='uxpHelpMenu']}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-08-24 12:54:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null&#xD;
+&#xD;
+2019-08-24 12:54:53 - [TEST_STEP][PASSED] - testCaseID = testCaseContext.getTestCaseId(): null&#xD;
+&#xD;
+2019-08-24 12:54:53 - [TEST_STEP][FAILED] - click(findTestObject("LogOut/Menu_Logoff")): Unable to click on object 'Object Repository/LogOut/Menu_Logoff' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogOut/Menu_Logoff'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at LogOutFromSystem.run(LogOutFromSystem:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566627775883.run(TempTestSuite1566627775883.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:45092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85079e2065aeff1efc8e0283d04f40b6
+*** Element info: {Using=xpath, value=//span[@id='uxpHelpMenu']}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at Script1562562570317.run(Script1562562570317.groovy:16)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-08-24 12:55:05 - [MESSAGE][WARNING] - Cannot take screenshot&#xD;
+&#xD;
+2019-08-24 12:55:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/LogOut/Menu_Logoff' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogOut/Menu_Logoff'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at LogOutFromSystem.run(LogOutFromSystem:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566627775883.run(TempTestSuite1566627775883.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:45092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85079e2065aeff1efc8e0283d04f40b6
+*** Element info: {Using=xpath, value=//span[@id='uxpHelpMenu']}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at Script1562562570317.run(Script1562562570317.groovy:16)&#xD;
+	... 13 more&#xD;
+)</system-out>
+            <system-err>2019-08-24 12:54:53 - [TEST_CASE][FAILED] - Test Cases/LogOutFromSystem: Test Cases/LogOutFromSystem FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/LogOut/Menu_Logoff'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$11.call(Unknown Source)&#xD;
+	at LogOutFromSystem.run(LogOutFromSystem:16)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1566627775883.run(TempTestSuite1566627775883.groovy:35)&#xD;
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CNU406BFVL', ip: '10.9.13.62', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:45092}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85079e2065aeff1efc8e0283d04f40b6
+*** Element info: {Using=xpath, value=//span[@id='uxpHelpMenu']}&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xD;
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)&#xD;
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-08-24 12:52:58 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-out>
+        <system-err>2019-08-24 12:52:58 - [TEST_SUITE][INCOMPLETE] - PartyOnboardingPersonal: null</system-err>
+    </testsuite>
+</testsuites>

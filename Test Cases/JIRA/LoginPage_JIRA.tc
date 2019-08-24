@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginPage_JIRA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b45d7c39-690d-4adb-a59f-4426117e31ca</testCaseGuid>
+   <variable>
+      <defaultValue>'http://172.24.192.12:8080/login.jsp'</defaultValue>
+      <description></description>
+      <id>ba3287d1-bcd9-4eba-b196-fa5873fc9e8e</id>
+      <masked>false</masked>
+      <name>linkJira</name>
+   </variable>
+   <variable>
+      <defaultValue>'htunlinnaung'</defaultValue>
+      <description></description>
+      <id>89d3de91-9c1c-4103-acec-7a3d7844ca4b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'jirauser'</defaultValue>
+      <description></description>
+      <id>a522737c-1a5e-4f64-9599-f916383b2ffd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
